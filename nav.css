@@ -1,0 +1,42 @@
+.nav-enlaces {
+    display: inline-block;
+    background-color: darkgreen;
+    color: #FFFF;
+    padding: 10px 30px;
+    text-decoration: none;
+    
+}
+.nav-enlaces:hover {
+    background-color: rgb(127, 255, 170);
+}
+nav {
+    background: mediumvioletred;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+@media (max-width: 600px) {
+    nav {
+        background: blue;
+        flex-direction: column;
+  
+    }
+    .nav-enlaces{
+        margin: 10px 0;
+        display: inline-block;
+
+    }
+}
+.nav-boton {
+    background: #FFFF;
+    color: black;
+    padding: 10px 0;
+    border: 2px solid #FFFF;
+    display: none;
+
+}
+
+body {
+    background-image: url('IMG13.png');
+}
