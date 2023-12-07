@@ -7,20 +7,23 @@
     <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <header>
-
-    </header>
     <nav>
-        <button class="nav-boton" onclick="accion()">MENU</button>
-        <a href="#" class="nav-enlaces">INICIO</a>
-        <a href="#" class="nav-enlaces">NOSOTROS</a>
-        <a href="#" class="nav-enlaces">SERVICIOS</a>
-        <a href="#" class="nav-enlaces">CONTACTO</a>
-        <a href="#" class="nav-enlaces">PROD</a>
+        <button class="nav-boton" onclick="accion()"><b>MENU</b></button>
+        <a href="#" class="nav-enlaces desaparecer">INICIO</a>
+        <a href="#" class="nav-enlaces desaparecer">NOSOTROS</a>
+        <a href="#" class="nav-enlaces desaparecer">SERVICIOS</a>
+        <a href="#" class="nav-enlaces desaparecer">CONTACTO</a>
+        <a href="#" class="nav-enlaces desaparecer">PRODUCTOS</a>
     </nav>
     <script>
-        function accion(){
-            console.log('El botonfunciona');
+        function accion() {
+            console.log('El boton funciona');
+            var ancla = document. 
+            getElementsByClassName('nav-enlace');
+            for(var i = 0; i < ancla.length;i++) {
+                ancla[i].classList.toggle
+                ('desaparecer');
+            } 
         }
     </script>
 </body>
